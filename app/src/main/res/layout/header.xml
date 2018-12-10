@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gradient_ends"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom">
+
+    <ImageView
+        android:id="@+id/userPic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/pic"
+        android:layout_marginEnd="12dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/userName"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="@string/name"
+            android:textColor="#fff"/>
+        <TextView
+            android:id="@+id/userEmail"
+            android:layout_marginStart="6dp"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="@string/email"
+            android:textColor="#fff"/>
+    </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="7dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/white"/>
+    </LinearLayout>
+</LinearLayout>
