@@ -8,11 +8,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class NearbyLenders extends Fragment {
+public class MyBorrowRequests extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_nearby_lenders,container,false);
+        return inflater.inflate(R.layout.my_borrow_requests,container,false);
     }
 }
